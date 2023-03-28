@@ -1,0 +1,52 @@
+#menu{
+      -fx-background-color: #a9a9a9;
+      -fx-spacing:10px;
+}
+#body{
+     -fx-background-image: url("download.jpg");
+     -fx-background-size: 900 600;
+     -fx-background-repeat: stretch;
+}
+#menu_content{
+    -fx-background-color: #191970;
+}
+#get_text{
+     -fx-text-fill:white;
+     -fx-font-weight:bold;
+     -fx-font-family: "Arial Narrow";
+     -fx-font-size:40px;
+}
+#paragraph{
+     -fx-text-fill:white;
+     -fx-font-weight:bold;
+     -fx-font-family: "Arial Narrow";
+     -fx-font-size:20px;
+     -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Romans";
+    -fx-font-weight: bold;
+    -fx-background-color:#000000;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#ffc0cb, #2A5058);
+}
+#Button_Name{
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Romans";
+    -fx-font-weight: bold;
+    -fx-background-color:#191970;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#Paragraph{
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Romans";
+    -fx-font-weight: bold;
+    -fx-background-color:#191970;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#text{
+-fx-background-color:#191970;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 )
+}
